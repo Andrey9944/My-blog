@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: O;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background: rgb(240, 240, 240);
+    width: 1920px;
+    height: 1792px;
+}
+
+.header {
+    background-color: rgb(253, 249, 5);
+    width: 100%;
+    height: 48px;
+    position: relative;
+}
+
+.head {
+    margin: 11px 0 11px 376px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+}
+
+.nav {
+    background-color: rgb(255, 255, 255);
+    height: 48px;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    margin: 16px 20px 16px 959px;
+    border-radius: 15px;
+}
+
+.text {
+    margin: 16px 15px 16px 0;
+    color: slateblue;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    width: 585px;
+    height: 615px;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 39px 10px 10px 367px;
+}
+
+.stat {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    position: absolute;
+    right: 315px;
+    margin: 365px 0 15px 0px;
+}
+
+.card-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: -0.02em;
+    color: #000;
+    margin: 10px 0 0 15px;
+}
+
+.card-1 {
+    background: #fff;
+    width: 285px;
+    height: 300px;
+    display: inline-block;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 39px 10px 10px 10px;
+    position: relative;
+}
+
+.stat-1 {
+    color: #000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    position: absolute;
+    right: 100px;
+    padding: 120px 20px 0 0;
+}
+
+
+.card-2 {
+    background: #fff;
+    width: 285px;
+    height: 300px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 39px 10px 0px 10px;
+    position: relative;
+}
+
+.stat-2 {
+    color: #000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    position: absolute;
+    right: 1px;
+    margin: 120px 120px 0 0;
+}
+
+.card-3 {
+    background: #fff;
+    width: 285px;
+    height: 300px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 0 0 0 975px;
+    position: relative;
+}
+
+.card-4 {
+    background: #fff;
+    width: 285px;
+    height: 300px;
+    display: inline-block;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 10px 10px 0 10px;
+    position: relative;
+}
+
+.card-5 {
+    background: #fff;
+    display: flex;
+    width: 585px;
+    height: 300px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin: 15px 15px 15px 367px;
+}
+
+.stat-3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+}
+
+.card-6 {
+    background: #fff;
+    width: 585px;
+    height: 300px;
+    display: flex;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin: 10px 10px 0 10px;
+}
+
+.card-7 {
+    background: #fff;
+    width: 585px;
+    height: 300px;
+    display: flex;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin: 15px 15px 15px 367px;
+}
+
+.card-8 {
+    background: #fff;
+    width: 585px;
+    height: 300px;
+    display: inline-block;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin: 10px 10px 0 10px;
+}
+
+.card-9 {
+    background: #fff;
+    width: 585px;
+    height: 300px;
+    display: inline-block;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin: 15px 15px 15px 367px;
+}
+
+.card-10 {
+    background: #fff;
+    width: 585px;
+    height: 300px;
+    display: inline-block;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin: 10px 10px 0 10px;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(3, 3, 3, 0.25);
+    border-radius: 19px;
+    width: 153px;
+    height: 52px;
+}
+
+.tap {
+    background: #FFFD00;
+    box-shadow: 0px 1px 2px rgba(255, 251, 0, 0.945);
+    border-radius: 19px;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 16px;
+    width: 132px;
+    height: 38px;
+}
